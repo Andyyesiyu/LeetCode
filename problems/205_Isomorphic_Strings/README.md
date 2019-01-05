@@ -1,6 +1,6 @@
 # 205
 
-## Solution 1
+## Solution
 Time: Probably *O(N^2)* because `containsValue` is O(N);
 
 Space: *O(N)*.
