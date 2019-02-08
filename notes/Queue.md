@@ -1,5 +1,8 @@
 # Queue
 
+## Methods
+
+```java
 Queue<Integer> q = new LinkedList<>();
 
 boolean	add(E e)
@@ -10,3 +13,4 @@ E	remove()
 
 E	peek()
 E	element()
+```
