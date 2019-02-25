@@ -19,6 +19,12 @@ boolean	remove(Object o)
 int	size()
 boolean	addAll(Collection<? extends E> c)
 
+Object	clone() // Returns a shallow copy of this LinkedList.
+/*
+LinkedList sec_list = new LinkedList();
+sec_list = (LinkedList) list.clone();
+*/
+
 List<List<Integer>> result;
 List<Integer> temp;
 result.add(new LinkedList<Integer>(temp));
