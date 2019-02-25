@@ -3,9 +3,10 @@
 ## Methods
 
 ```java
+String(char[] value)
 int	length()
 char charAt(int index)
-char[]	toCharArray()
+char[] toCharArray()
 int	compareToIgnoreCase(String str)
 
 // Returns the string representation of the int argument.
