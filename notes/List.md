@@ -25,7 +25,16 @@ LinkedList sec_list = new LinkedList();
 sec_list = (LinkedList) list.clone();
 */
 
+// Better method for copying: using constructor.
+// Constructs a list containing the elements of the specified collection, in the order they are returned by the collection's iterator.
+LinkedList(Collection<? extends E> c)
+
 List<List<Integer>> result;
 List<Integer> temp;
 result.add(new LinkedList<Integer>(temp));
 ```
+
+## Notes
+
+1. For LinkedList, you can always try to add a sentinel node to avoid special cases. (See 19)
+   - Especially when you need to delete the first element.
